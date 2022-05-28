@@ -22,3 +22,23 @@ These criteria are met by dividing the service into layers, where each layer is 
 :file_folder: [View project directory](/Elixir-HTTP-Server)<br /><br />
 For this exercise the student was tasked with writing a small web server in Elixir. The aim of the exercise was for the student to learn about implementing the procedures for using a socket API and the structures of a server process using functional programming.<br />
 The whole of the small server is found in `http.ex`. The `rudy.ex` file contains a basic test of the rudimentary server, and the `test.ex` file runs a benchmark on the server response time.
+
+### 3. Image Generating Ray Tracer
+:file_folder: [View project directory](/Image-Generating-Ray-Tracer)<br /><br />
+A ray tracer that receives a Camera module and an array of Sphere modules and produces an image of those spheres using ray tracing.
+The tracer consists of the following modules:
+* vector: vector arithmetic
+* ray: the description of a ray
+* sphere: a sphere object
+* object: a protocol for all objects
+* camera: the camera position, direction and characteristics
+* tracer: responsible for the tracing of rays
+* ppm: how to generate a .ppm file
+
+### 4. Mandelbrot Fractal Image Generator
+:file_folder: [View project directory](/Mandelbrot-Fractal-Image-Generator)<br /><br />
+This image generator receives one input in form of a RGB color code (for example -2, 1.2, 1.2) and generates a picture of a manderlbrot fractal with a certain depth. The height and width of the image, as well as the depth of the fractal are defined in `test.ex`. The depth is not currently changeable by the program user.
+
+### 5. Meta-interpreter for a  Small Functional Language
+:file_folder: [View project directory](/Meta-Interpreter-of-Functional-Language)<br /><br />
+For this exercise the student implemented a meta-interpreter for a small functional programming language. A meta-interpreter is an interpreter that is implented in the same language as it interprets. For this exercise a subset of the Elixir language was used to write the interpreter.
